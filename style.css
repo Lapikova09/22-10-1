@@ -1,0 +1,59 @@
+.card{
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    position: relative;
+}
+.red{
+    position: absolute;
+    width: 350px;
+    height: 30px;
+    background-color: red;
+    color:white;
+    top: 50px;
+    left: -30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.red p{
+    margin-top: 7px;
+    margin-left: 30px;
+}
+input{
+    background-color: rgb(33, 164, 120);
+    height: 30px;
+    border-bottom: 2px solid black;
+}
+.font{
+    color: rgba(9, 23, 19, 0.422);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+form{
+   padding-top: 80px;
+   padding-left: 20px;
+}
+ul{
+    display: flex;
+    justify-content: left;
+    gap: 40px;
+}
+.size{
+    width: 50px;
+}
+.pl{
+    padding-top: 35px;
+}
+.marg{
+    margin-left: 20px;
+}
+.btr{
+    position: absolute;
+    top: 100px;
+    right: 50px;
+}
